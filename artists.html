@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>React App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style>
+        a { cursor: pointer; }
+    </style>
+</head>
+
+<body>
+    <div id="react-app">
+        <div>
+            <div>
+                <div class="top-bar">
+                    <div class="top-bar-left"><a class="active" aria-current="true" href="#/">Katalog muzyczny</a></div>
+                    <div class="top-bar-right"><a href="#/albums">Albumy</a><a href="#/artists">Artyści</a><a href="#/bands">Zespoły</a><a
+                            href="#/lists">Listy</a><a href="#/addlist">Dodaj listę</a><a href="#/mylists">Moje listy</a><a
+                            href="#/addalbum">Dodaj album</a><a href="#/addartist">Dodaj artystę</a><a href="#/addband">Dodaj
+                            zespół</a><a href="#/addgenre">Dodaj gatunek</a><a href="#/addedition">Dodaj wydanie</a><a
+                            href="#/addalbumtype">Dodaj typ albumu</a><a href="#/users">Użytkownicy</a><a href="#/login">Zaloguj
+                            się</a><a href="#/signup">Zarejestruj się</a></div>
+                    <div class="top-bar-right"></div>
+                </div>
+            </div>
+            <div location="[object Object]" computedmatch="[object Object]">
+                <div>
+                    <div class="container" style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 2px; z-index: 1;">
+                        <div style="padding-bottom: 0px;">
+                            <div style="padding: 16px; position: relative;"><span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">Artyści</span><span
+                                    style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;"></span></div>
+                            <div class="text-center">
+                                <div>
+                                    <div style="font-size: 16px; line-height: 24px; width: 256px; height: 48px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;"><input
+                                            type="text" name="query" placeholder="Wpisz tekst" id="query-undefined-undefined-61744"
+                                            style="padding: 0px; position: relative; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font: inherit; opacity: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%;">
+                                        <div>
+                                            <hr aria-hidden="true" style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                                            <hr aria-hidden="true" style="border-top: none rgb(0, 188, 212); border-left: none rgb(0, 188, 212); border-right: none rgb(0, 188, 212); border-bottom: 2px solid rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                                        </div>
+                                    </div>
+                                    <div class="buttonMargin" style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 2px; display: inline-block; min-width: 88px;"><button
+                                            tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; width: 100%; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background-color: rgb(0, 188, 212); text-align: center;">
+                                            <div>
+                                                <div style="height: 36px; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;"><span
+                                                        style="position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; user-select: none; padding-left: 16px; padding-right: 16px; color: rgb(255, 255, 255);">Szukaj</span></div>
+                                            </div>
+                                        </button></div>
+                                </div>
+                                <div class="pagination-link"><a href="#/artists/5a3004376a3d031c189c6b1f">Drake </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a3004456a3d031c189c6be9">Post Malone
+                                    </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a3004496a3d031c189c6c0c">21 Savage </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a3004536a3d031c189c6c7f">Lil Uzi Vert
+                                    </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a30045a6a3d031c189c6cc8">Future </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a3004706a3d031c189c6dfb">Khalid </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a3004736a3d031c189c6e0c">Kendrick
+                                        Lamar </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a30047d6a3d031c189c6e84">Travis Scott
+                                    </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a3004816a3d031c189c6ea5">Gucci Mane
+                                    </a></div>
+                                <div class="pagination-link"><a href="#/artists/5a3005146a3d031c189c7819">Metro Boomin
+                                    </a></div>
+                                <ul class="pagination">
+                                    <li class="disabled"><a>Pierwsza</a></li>
+                                    <li class="disabled"><a>Poprzednia</a></li>
+                                    <li class="active"><a>1</a></li>
+                                    <li class=""><a>2</a></li>
+                                    <li class=""><a>3</a></li>
+                                    <li class=""><a>4</a></li>
+                                    <li class=""><a>5</a></li>
+                                    <li class=""><a>6</a></li>
+                                    <li class=""><a>7</a></li>
+                                    <li class=""><a>8</a></li>
+                                    <li class=""><a>9</a></li>
+                                    <li class=""><a>10</a></li>
+                                    <li class=""><a>Kolejna</a></li>
+                                    <li class=""><a>Ostatnia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+
+    <style>
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            border: 0;
+            padding: 0;
+        }
+    </style>
+</body>
+
+</html>

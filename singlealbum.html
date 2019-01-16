@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>React App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style>
+        a { cursor: pointer; }
+    </style>
+</head>
+
+<body>
+    <div id="react-app">
+        <div>
+            <div>
+                <div class="top-bar">
+                    <div class="top-bar-left"><a class="active" aria-current="true" href="#/">Katalog muzyczny</a></div>
+                    <div class="top-bar-right"><a href="#/albums">Albumy</a><a href="#/artists">Artyści</a><a href="#/bands">Zespoły</a><a
+                            href="#/lists">Listy</a><a href="#/addlist">Dodaj listę</a><a href="#/mylists">Moje listy</a><a
+                            href="#/addalbum">Dodaj album</a><a href="#/addartist">Dodaj artystę</a><a href="#/addband">Dodaj
+                            zespół</a><a href="#/addgenre">Dodaj gatunek</a><a href="#/addedition">Dodaj wydanie</a><a
+                            href="#/addalbumtype">Dodaj typ albumu</a><a href="#/users">Użytkownicy</a><a href="#/login">Zaloguj
+                            się</a><a href="#/signup">Zarejestruj się</a></div>
+                    <div class="top-bar-right"></div>
+                </div>
+            </div>
+            <div location="[object Object]" computedmatch="[object Object]">
+                <div class="container" style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 2px; z-index: 1;">
+                    <div style="padding-bottom: 0px;">
+                        <div style="padding: 16px; position: relative;"><span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">Nowy
+                                album</span><span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;"></span></div><span>Album
+                            stworzny przez <a href="#/artists/5a3004736a3d031c189c6e0c">Kendrick Lamar</a></span><br>
+                        <div></div>
+                        <h4>Gatunki: </h4><span>Pop; </span><span>Rap; </span><br>
+                        <h4>Typ albumu: </h4><span>Longplay</span><br>
+                        <h4>Wydania albumu: </h4><span>CD; </span><br>
+                        <h4>Data wydania: </h4><span>1999</span><br>
+                        <h4>Długość: </h4><span>0h 8min 40sec </span><br>
+                        <h4>Piosenki: </h4>
+                        <div><span>1. Song 1 2min 23sec </span><br></div>
+                        <div><span>2. Song 2 3min 34sec </span><br></div>
+                        <div><span>3. Song 3 2min 43sec </span><br></div>
+                        <div><span>4. Song 4 3min 25sec </span><br></div><br>
+                        <div>
+                            <h3>Twoja ocena</h3>
+                            <div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="1" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">1</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="2" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">2</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="3" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">3</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="4" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">4</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="5" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">5</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="6" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">6</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="7" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">7</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="8" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">8</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="9" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">9</label>
+                                    </div>
+                                </div>
+                                <div style="cursor: pointer; position: relative; overflow: visible; display: inline-block; height: auto; width: 60px; margin-bottom: 16px;"><input
+                                        type="radio" name="shipSpeed" value="10" style="position: absolute; cursor: inherit; pointer-events: all; opacity: 0; width: 100%; height: 100%; z-index: 2; left: 0px; box-sizing: border-box; padding: 0px; margin: 0px;">
+                                    <div style="display: flex; width: 100%; height: 100%;">
+                                        <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; float: left; position: relative; display: block; flex-shrink: 0; width: 24px; margin-right: 16px; margin-left: 0px; height: 24px;">
+                                            <div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgba(0, 0, 0, 0.87); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(1);">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg><svg viewBox="0 0 24 24" style="display: inline-block; color: rgba(0, 0, 0, 0.87); fill: rgb(0, 188, 212); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; position: absolute; opacity: 1; transform: scale(0); transform-origin: 50% 50% 0px;">
+                                                    <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path>
+                                                </svg></div>
+                                            <div></div>
+                                            <div style="position: absolute; height: 100%; width: 100%; top: 0px; left: 0px;"></div>
+                                        </div><label style="float: left; position: relative; display: block; width: calc(100% - 60px); line-height: 24px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, sans-serif;">10</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Średnia ocena</h3>6.5
+                        </div><br>
+                        <div></div>
+                        <div>
+                            <h3>Twoja Recenzja</h3>
+                            <form>
+                                <div style="font-size: 16px; line-height: 24px; width: 256px; height: 144px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;">
+                                    <div style="position: absolute; opacity: 1; color: rgba(0, 0, 0, 0.3); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">Twoja
+                                        recenzja</div>
+                                    <div style="position: relative; padding: 0px; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font: inherit; opacity: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%;"><textarea
+                                            tabindex="-1" rows="5" readonly="" style="height: auto; width: 100%; resize: none; font: inherit; padding: 0px; cursor: inherit; position: absolute; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); opacity: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 12px; margin-bottom: -12px; box-sizing: border-box; overflow: hidden; visibility: hidden;"></textarea><textarea
+                                            id="undefined-Twojarecenzja-undefined-30352" rows="5" style="height: 120px; width: 100%; resize: none; font: inherit; padding: 0px; cursor: inherit; position: relative; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); opacity: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 12px; margin-bottom: -12px; box-sizing: border-box;"></textarea></div>
+                                    <div>
+                                        <hr aria-hidden="true" style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;">
+                                        <hr aria-hidden="true" style="border-top: none rgb(0, 188, 212); border-left: none rgb(0, 188, 212); border-right: none rgb(0, 188, 212); border-bottom: 2px solid rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;">
+                                    </div>
+                                </div><br>
+                                <div style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 2px; display: inline-block; min-width: 88px; margin: 12px;"><button
+                                        tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; width: 100%; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background-color: rgb(0, 188, 212); text-align: center;">
+                                        <div>
+                                            <div style="height: 36px; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;"><span
+                                                    style="position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; user-select: none; padding-left: 16px; padding-right: 16px; color: rgb(255, 255, 255);">Dodaj
+                                                    recenzję</span></div>
+                                        </div>
+                                    </button></div>
+                                <div style="padding: 16px; position: relative;"><span style="font-size: 24px; color: rgba(0, 0, 0, 0.87); display: block; line-height: 36px;">Recenzje
+                                        innych użytkowników</span><span style="font-size: 14px; color: rgba(0, 0, 0, 0.54); display: block;"></span></div>
+                                <div>
+                                    <div style="padding: 16px 16px 6px; font-size: 14px; color: rgb(190, 190, 190);">Recezja
+                                        napisana przez użytkownika <b>kolejnyuser</b></div>
+                                    <div style="padding: 16px; font-size: 14px; color: rgba(0, 0, 0, 0.87);">Super
+                                        recenzja</div>
+                                </div>
+                            </form>
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+
+    <style>
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            border: 0;
+            padding: 0;
+        }
+    </style>
+    <div>
+        <div style="position: fixed; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 1500; top: 0px; left: -10000px; width: 100%; height: 100%; transition: left 0ms cubic-bezier(0.23, 1, 0.32, 1) 450ms;">
+            <div></div>
+            <div style="position: fixed; height: 100%; width: 100%; top: 0px; left: -100%; opacity: 0; background-color: rgba(0, 0, 0, 0.54); -webkit-tap-highlight-color: rgba(0, 0, 0, 0); will-change: opacity; transform: translateZ(0px); transition: left 0ms cubic-bezier(0.23, 1, 0.32, 1) 400ms, opacity 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1400;"></div>
+        </div>
+    </div>
+</body>
+
+</html>
